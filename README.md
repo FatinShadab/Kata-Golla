@@ -1,5 +1,4 @@
-#  XO কাটা-গোল্লা (Kata-Golla) - Minimax & Alpha-Beta Pruning
----
+#  XO কাটা-গোল্লা (Kata-Golla) - Minimax & α-β Pruning
 
 ## Project Overview
 
