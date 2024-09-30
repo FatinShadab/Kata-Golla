@@ -1,4 +1,5 @@
 import tkinter as tk
+from tkinter import PhotoImage
 import asyncio
 
 from ai import Agent
@@ -47,6 +48,8 @@ class Game:
         self.window.resizable(False, False)
         self.window.configure(background=Game.COLOR_SHEMA["border"])
         self.window.grid_columnconfigure(0, weight=1)
+        icon = PhotoImage(file="./assets/icon.png")
+        self.window.iconphoto(True, icon)  # Set the window icon
 
     def __restart_game(self):
         # Reset the board and UI
